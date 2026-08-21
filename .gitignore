@@ -1,0 +1,10 @@
+Pictures/
+
+PCB/**/*-backups/
+PCB/**/*.bak
+PCB/**/*.lck
+PCB/**/*.kicad_prl
+PCB/**/*.zip
+PCB/**/Production/
+PCB/**/fp-info-cache
+

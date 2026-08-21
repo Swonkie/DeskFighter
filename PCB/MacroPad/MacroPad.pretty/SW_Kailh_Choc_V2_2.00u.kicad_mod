@@ -1,0 +1,220 @@
+(footprint "SW_Kailh_Choc_V2_2.00u"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Kailh Choc V2 with Durock V3 plate mount stabilizer 2.00u")
+	(tags "Kailh Choc V2 Durock V3 stabilizer 2.00u 2u")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(layer "B.SilkS")
+		(uuid "e5192c97-cc26-40a4-98df-ab3d1407b73b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Value" "SW_Kailh_Choc_V2_2.00u"
+		(at 0 10.16 0)
+		(layer "F.Fab")
+		(uuid "ff4e7b61-affd-485e-b9d1-fac8a5042b3b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.kailhswitch.com/uploads/15927/files/CPG1353S01D01-01-data-sheet.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a68d2eb4-8500-4fa7-93df-8a8f6a1539cd")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "185b3442-b71d-49c8-8dda-e5d45ebb0f8b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -18.5 -9)
+		(end 18.5 9)
+		(radius 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "bbf40464-2973-4cbb-9d1a-4fa697e401da")
+	)
+	(fp_poly
+		(pts
+			(xy -7.875 -5) (xy -7.875 -6.8) (xy -15.625 -6.8) (xy -15.625 -5) (xy -14.95 -5) (xy -14.95 -2) (xy -15.625 -2)
+			(xy -15.625 5.6) (xy -7.875 5.6) (xy -7.875 -2) (xy -8.55 -2) (xy -8.55 -5)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "682f0f1e-f4c8-49f3-83d7-fb388f641fb1")
+	)
+	(fp_poly
+		(pts
+			(xy 15.625 -5) (xy 15.625 -6.8) (xy 7.875 -6.8) (xy 7.875 -5) (xy 8.55 -5) (xy 8.55 -2) (xy 7.875 -2)
+			(xy 7.875 5.6) (xy 15.625 5.6) (xy 15.625 -2) (xy 14.95 -2) (xy 14.95 -5)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "4982b13f-7927-4ac9-ac59-0bb737fe57bd")
+	)
+	(fp_poly
+		(pts
+			(xy -16 6) (xy -16 -9.75) (xy 16 -9.75) (xy 16 6) (xy 7.5 6) (xy 7.5 -6) (xy -7.5 -6) (xy -7.5 6)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.CrtYd")
+		(uuid "9fc28a58-5030-4ccf-8a7f-4bdef73d21ce")
+	)
+	(fp_rect
+		(start -16 -8.25)
+		(end 16 7.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "fcc2790d-f1d1-46e9-b606-fe784c3eb127")
+	)
+	(fp_rect
+		(start -2.5 -6.08)
+		(end 2.5 -3.78)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "cf9904fe-9d9f-407f-9319-2a35889db1a0")
+	)
+	(fp_rect
+		(start -7.5 -7.5)
+		(end 7.5 7.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "794f5d09-69c0-42d7-b104-cee755a615a3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "e048881f-03c5-4175-bb8e-7c17baf644c7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(point
+		(at 0 -4.93)
+		(size 1)
+		(layer "Dwgs.User")
+		(uuid "d2258087-e6f6-4aee-b6d9-f98423de192a")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 4.9 4.9)
+		(drill 4.9)
+		(layers)
+		(uuid "cb385e49-2202-431c-8711-804f31407f9e")
+	)
+	(pad "" thru_hole circle
+		(at 5 -5.15)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "B.Mask")
+		(remove_unused_layers no)
+		(uuid "07d22ed5-666f-4741-8340-8f29ceabe07e")
+	)
+	(pad "1" thru_hole circle
+		(at -5 3.8)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "B.Mask")
+		(remove_unused_layers no)
+		(uuid "13242738-8c6e-4086-92cb-52da1abb501b")
+	)
+	(pad "2" thru_hole circle
+		(at 0 5.9)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "B.Mask")
+		(remove_unused_layers no)
+		(uuid "7a9756a2-d261-477a-8854-7d765b696400")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3dmodels/SW_Kailh_Choc_V2.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+	(model "${KIPRJMOD}/3dmodels/Stabilizer_2.00u.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -180)
+		)
+	)
+	(model "${KIPRJMOD}/3dmodels/Keycap_2u_blank.step"
+		(offset
+			(xyz 0 0 10.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

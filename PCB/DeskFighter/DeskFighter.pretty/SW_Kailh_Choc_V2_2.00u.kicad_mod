@@ -1,0 +1,212 @@
+(footprint "SW_Kailh_Choc_V2_2.00u"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Kailh Choc V2 with Durock V3 plate mount stabilizer 2.00u")
+	(tags "Kailh Choc V2 Durock V3 stabilizer 2.00u 2u")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(layer "B.SilkS")
+		(uuid "f130becc-9b77-41c4-b99f-1035a33007a0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Value" "SW_Kailh_Choc_V2_2.00u"
+		(at 0 10.16 0)
+		(layer "F.Fab")
+		(uuid "7fa6ad0b-cf4b-40be-93a3-8db24b1b51c5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.kailhswitch.com/uploads/15927/files/CPG1353S01D01-01-data-sheet.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e8aa9312-6e32-4983-bcb4-9a862ce60d41")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3130e867-9b01-491d-bbe6-848f3351eec5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -18.5 -9)
+		(end 18.5 9)
+		(radius 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "08228826-448a-4406-952c-e564ba53a63c")
+	)
+	(fp_poly
+		(pts
+			(xy -7.875 -5) (xy -7.875 -6.8) (xy -15.625 -6.8) (xy -15.625 -5) (xy -14.95 -5) (xy -14.95 -2) (xy -15.625 -2)
+			(xy -15.625 5.6) (xy -7.875 5.6) (xy -7.875 -2) (xy -8.55 -2) (xy -8.55 -5)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "b844a2b8-b7d9-4fbb-bafc-661cd0e2cfd3")
+	)
+	(fp_poly
+		(pts
+			(xy 15.625 -5) (xy 15.625 -6.8) (xy 7.875 -6.8) (xy 7.875 -5) (xy 8.55 -5) (xy 8.55 -2) (xy 7.875 -2)
+			(xy 7.875 5.6) (xy 15.625 5.6) (xy 15.625 -2) (xy 14.95 -2) (xy 14.95 -5)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "eff45ef5-f071-4ced-81ff-331ddb7b27fa")
+	)
+	(fp_poly
+		(pts
+			(xy -16 6) (xy -16 -9.75) (xy 16 -9.75) (xy 16 6) (xy 7.5 6) (xy 7.5 -6) (xy -7.5 -6) (xy -7.5 6)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.CrtYd")
+		(uuid "92da44f2-b9f5-48b8-9a38-fe000980c609")
+	)
+	(fp_rect
+		(start -16 -8.25)
+		(end 16 7.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "ec3078b3-eb68-4205-a04b-a713f5a68f3c")
+	)
+	(fp_rect
+		(start -2.5 -6.08)
+		(end 2.5 -3.78)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "cbb8530d-c4d0-448c-9518-7bc3c2afb584")
+	)
+	(fp_rect
+		(start -7.5 -7.5)
+		(end 7.5 7.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "7ab5ae58-2a0f-4584-9264-e0717ce6859b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "a33672c0-33be-4a3c-abf6-3d74d25c8c57")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(point
+		(at 0 -4.93)
+		(size 1)
+		(layer "Dwgs.User")
+		(uuid "a4522496-2229-4c3d-9331-88ba5d971478")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 4.9 4.9)
+		(drill 4.9)
+		(layers)
+		(uuid "354647cf-39d4-4a5a-a648-f9903cc45832")
+	)
+	(pad "1" thru_hole circle
+		(at -5 3.8)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "B.Mask")
+		(remove_unused_layers no)
+		(uuid "17f09dd2-3a3d-4e18-bd86-f652b413209d")
+	)
+	(pad "2" thru_hole circle
+		(at 0 5.9)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "B.Mask")
+		(remove_unused_layers no)
+		(uuid "d9ee56f9-c604-41c8-9034-17ffbbc22732")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3dmodels/SW_Kailh_Choc_V2.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+	(model "${KIPRJMOD}/3dmodels/Stabilizer_2.00u.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -180)
+		)
+	)
+	(model "${KIPRJMOD}/3dmodels/Keycap_2u_blank.step"
+		(offset
+			(xyz 0 0 10.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

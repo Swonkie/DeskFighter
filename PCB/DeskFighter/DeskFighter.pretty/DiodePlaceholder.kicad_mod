@@ -1,0 +1,248 @@
+(footprint "DiodePlaceholder"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, bridged with 1 copper strip")
+	(tags "net tie solder jumper bridged")
+	(property "Reference" "REF**"
+		(at 0 -1.85 0)
+		(layer "F.SilkS")
+		(uuid "9cb6d715-8d49-4a03-a01e-b48d21badbd0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "DiodePlaceholder"
+		(at 0 1.95 0)
+		(layer "F.Fab")
+		(uuid "89a588f6-ef06-458a-9f2c-7464d53001b0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "095ce194-8f4e-4802-a2b6-bef4701c039d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "364c4d36-c4bf-4923-918b-5676de0de824")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(zone_connect 1)
+	(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+	(net_tie_pad_groups "1, 2")
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -1.25 -0.125)
+		(end 1.25 0.125)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Cu")
+		(uuid "5a30a2f2-7895-44c6-981b-56011c55dda3")
+	)
+	(fp_rect
+		(start -1.2 -0.175)
+		(end 1.2 0.175)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "35aff484-ccfb-4aa1-9120-f1c313782e4c")
+	)
+	(fp_line
+		(start -2.5 -1)
+		(end -2.5 1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "768156fa-449f-493a-a4a0-3f81f123af20")
+	)
+	(fp_line
+		(start -2.5 1)
+		(end 1.03 1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "10894919-6b9c-459f-b5b5-965c146255e1")
+	)
+	(fp_line
+		(start 1.03 -1)
+		(end -2.5 -1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "49e92d9c-77bb-40da-847c-1a742e69185e")
+	)
+	(fp_rect
+		(start -2.35 -1.15)
+		(end 2.35 1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "e2924e1c-fd90-44d4-9290-7b3bc17b30af")
+	)
+	(fp_line
+		(start -1.4 -0.9)
+		(end 1.4 -0.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "aaf0b75b-e8d1-41b1-af5b-2b2e797afebd")
+	)
+	(fp_line
+		(start -1.4 0.9)
+		(end -1.4 -0.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "35e13440-51a1-428a-b93a-ba2cc3ad1824")
+	)
+	(fp_line
+		(start -0.75 0)
+		(end -0.35 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8eed17aa-8858-4158-9c54-639d522afb2f")
+	)
+	(fp_line
+		(start -0.35 0)
+		(end -0.35 -0.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "30afbb88-e414-4081-aa76-fb04e0159ceb")
+	)
+	(fp_line
+		(start -0.35 0)
+		(end -0.35 0.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f9f5d975-2856-4d35-99d7-fdc103f3dc49")
+	)
+	(fp_line
+		(start -0.35 0)
+		(end 0.25 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9aca2ee4-63fd-4554-9e07-119b52d34d09")
+	)
+	(fp_line
+		(start 0.25 -0.4)
+		(end 0.25 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bfc46179-a4b4-403f-9456-f6635ad7da8a")
+	)
+	(fp_line
+		(start 0.25 0)
+		(end 0.75 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0d032acf-f3ec-4374-a66d-410bbad26c41")
+	)
+	(fp_line
+		(start 0.25 0.4)
+		(end -0.35 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d38264dc-1feb-4d72-ab3b-22b44f6ce600")
+	)
+	(fp_line
+		(start 1.4 -0.9)
+		(end 1.4 0.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "36077899-6001-45a3-99ba-5a002de1bf4e")
+	)
+	(fp_line
+		(start 1.4 0.9)
+		(end -1.4 0.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "087ce4b7-9ede-4e36-a828-aa6faada9366")
+	)
+	(pad "1" smd roundrect
+		(at -1.75 0)
+		(size 1.2 1.2)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.2173913043)
+		(uuid "3b208d5b-8ea4-4641-989b-b76866c1bda0")
+	)
+	(pad "2" smd roundrect
+		(at 1.75 0)
+		(size 1.2 1.2)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.2173913043)
+		(uuid "c7b18911-2db5-4c18-a597-ef7b0cf44330")
+	)
+	(embedded_fonts no)
+)

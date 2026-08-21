@@ -1,0 +1,171 @@
+(footprint "SW_Kailh_Choc_V2_1.00u"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Kailh Choc V2 1.00u")
+	(tags "Kailh Choc V2 1.00u 1u")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(layer "B.SilkS")
+		(uuid "4b9907f1-fa06-498a-842a-2f18bbdf7fc8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Value" "SW_Kailh_Choc_V2_1.00u"
+		(at 0 10.16 0)
+		(layer "F.Fab")
+		(uuid "abbe4b08-477e-433e-9bda-820b41355f96")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.kailhswitch.com/uploads/15927/files/CPG1353S01D01-01-data-sheet.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6d4b6ef8-e09e-454c-a0df-22df4ed17ee1")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a8806584-bd50-405f-8f89-5253e61f68fe")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -9 -9)
+		(end 9 9)
+		(radius 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "11335128-031a-49a4-967b-0607939e15e1")
+	)
+	(fp_rect
+		(start -7.75 -7.75)
+		(end 7.75 7.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "3f998dbc-df08-440b-84b0-41c50979d3ff")
+	)
+	(fp_rect
+		(start -2.5 -6.08)
+		(end 2.5 -3.78)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "f7d6fa13-f376-4adb-8f38-e854fb8a0d66")
+	)
+	(fp_rect
+		(start -7.5 -7.5)
+		(end 7.5 7.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "42e9e173-ac22-4b6b-ac62-b0e19ffec833")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "a78d57bc-d8a7-4d58-ac1c-2b76421e28c6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(point
+		(at 0 -4.93)
+		(size 1)
+		(layer "Dwgs.User")
+		(uuid "255d63de-c58f-4d6f-8314-1c0cf243162c")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 4.9 4.9)
+		(drill 4.9)
+		(layers)
+		(uuid "2041e7e4-4d3d-447f-8337-7bcc17bb9c33")
+	)
+	(pad "" thru_hole circle
+		(at 5 -5.15)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "B.Mask")
+		(remove_unused_layers no)
+		(uuid "6272ef57-c1df-41f3-9673-21a499505b71")
+	)
+	(pad "1" thru_hole circle
+		(at -5 3.8)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "B.Mask")
+		(remove_unused_layers no)
+		(uuid "faeb16db-be6c-4e10-948b-48139dbce316")
+	)
+	(pad "2" thru_hole circle
+		(at 0 5.9)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "B.Mask")
+		(remove_unused_layers no)
+		(uuid "0ceaa625-ead2-4b7b-9dfb-6aca2e5d45f5")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3dmodels/SW_Kailh_Choc_V2.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${KIPRJMOD}/3dmodels/Keycap_1u_blank.step"
+		(offset
+			(xyz 0 0 9.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
