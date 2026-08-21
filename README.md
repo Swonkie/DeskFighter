@@ -41,3 +41,24 @@ Also includes the MacroPad files - a test project to figure out some things with
 
 https://www.kicad.org/
 
+
+## Additional parts required
+
+The mentioned shops are just suggestions. All parts are available in other shops too.
+
+| Shop                                         | Item                                                                                 | Quantity |
+| -------------------------------------------- | ------------------------------------------------------------------------------------ | -------: |
+| [Keebart](https://www.keebart.com/)          | Switches (Kailh Choc V2 with 2 pins)                                                 |      100 |
+|                                              | THT keycaps blank                                                                    |       60 |
+|                                              | THT keycaps with dot                                                                 |        2 |
+|                                              | THT keycaps with tactile marker                                                      |        2 |
+|                                              |                                                                                      |          |
+| [Max Gaming](https://www.maxgaming.com/shop) | Durock V3 plate-mounted stabilizer set                                               |        1 |
+|                                              |                                                                                      |          |
+| [DigiKey](https://www.digikey.com/)          | [Various electronics components](https://www.digikey.com/en/mylists/list/9PG9QW3RYC) |        – |
+|                                              |                                                                                      |          |
+| [CNC Kitchen](https://cnckitchen.store/)     | M2 heat-set inserts                                                                  |       20 |
+|                                              | Installation tip set (optional)                                                      |        1 |
+|                                              |                                                                                      |          |
+| [AliExpress](https://www.aliexpress.com/)    | M2 × 5 mm screws, black, Torx                                                        |       10 |
+|                                              | Rubber feet, 8 mm × 3 mm, self-adhesived                                             |       20 |
