@@ -592,6 +592,7 @@
       "netlist": "",
       "plot": "Production/Gerber/",
       "specctra_dsn": "",
+      "step": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -781,7 +782,7 @@
   ],
   "text_variables": {
     "name": "DeskFighter",
-    "rev": "1.0",
+    "rev": "1.1",
     "url": "github.com/swonkie/DeskFighter"
   },
   "tuning_profiles": {
